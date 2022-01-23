@@ -1,6 +1,6 @@
 // URL to retreive data. Mine is public so anyone can get it
 let url = 'https://io.adafruit.com/api/v2/jahrndt/feeds/bezosvsmusk';
-let url2 = '	https://io.adafruit.com/api/v2/jahrndt/feeds/musk';
+let url2 = 'https://io.adafruit.com/api/v2/jahrndt/feeds/musk';
 let counter = 0;
 
 let myFont;
@@ -49,7 +49,7 @@ function getData() {
     // print out the data we're keen to see
     console.log(data);
 noStroke();  
-textSize(32);
+textSize(36);
 fill(255,0,0);
 text(data, width/8, height/3,width/2-300,height-100);
 
@@ -65,7 +65,7 @@ text(data, width/8, height/3,width/2-300,height-100);
     // print out the data we're keen to see
     console.log(data);
 noStroke();  
-textSize(32);
+textSize(36);
 fill(0,0,255)      
 text(data, width/2 + (width/9), height/3,width/2-width/5,height/3-100);
 
