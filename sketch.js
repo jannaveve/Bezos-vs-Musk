@@ -11,6 +11,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textFont(myFont);
+  background(0);
 }
 
 function windowResized() {
@@ -18,8 +19,7 @@ function windowResized() {
 }
 
 function draw() {
-  //fill(255, 10);
-  //rect(0, 0, width, height);
+  background(0);
   // only pull this every once in awhile
   if (counter % 180 == 0) {
     getData(); // function for calling data
