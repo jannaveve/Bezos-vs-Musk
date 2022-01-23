@@ -20,6 +20,7 @@ function windowResized() {
 
 function draw() {
   background(0);
+  windowResized();
   // only pull this every once in awhile
   if (counter % 180 == 0) {
     getData(); // function for calling data
@@ -68,7 +69,7 @@ text(data, width/4, height/3);
 noStroke();  
 textSize(32);
 fill(0,0,255);      
-text(data, width-350, height/3);
+text(data, width-25%, height/3);
   });
 
 }
