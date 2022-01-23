@@ -49,9 +49,9 @@ function getData() {
     // print out the data we're keen to see
     console.log(data);
 noStroke();  
-textSize(24);
+textSize(32);
 fill(255,0,0);
-text(data, width/8, height/3,width/2-100,height-100);
+text(data, width/8, height/3,width/2-300,height-100);
 
   });
     httpGet(url2, 'json', function(response) {
@@ -65,10 +65,10 @@ text(data, width/8, height/3,width/2-100,height-100);
     // print out the data we're keen to see
     console.log(data);
 noStroke();  
-textSize(24);
+textSize(32);
 fill(0,0,255)      
-text(data, width-width/3, height/3,width-300,height-100);
-textWrap(WORD);
+text(data, width/2 + (width/9), height/3,width/2-width/5,height/3-100);
+
   });
 
 }
