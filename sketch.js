@@ -13,6 +13,9 @@ function setup() {
   textFont(myFont);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
 
 function draw() {
   //fill(255, 10);
