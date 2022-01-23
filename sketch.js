@@ -69,7 +69,7 @@ text(data, width/4, height/3);
 noStroke();  
 textSize(32);
 fill(0,0,255);      
-text(data, width-25%, height/3);
+text(data, width-375, height/3);
   });
 
 }
