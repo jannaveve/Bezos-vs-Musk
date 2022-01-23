@@ -1,6 +1,6 @@
 // URL to retreive data. Mine is public so anyone can get it
 let url = 'https://io.adafruit.com/api/v2/jahrndt/feeds/bezosvsmusk';
-let url2 = 'https://io.adafruit.com/api/v2/jahrndt/feeds/musk';
+let url2 = '	https://io.adafruit.com/api/v2/jahrndt/feeds/musk';
 let counter = 0;
 
 let myFont;
@@ -11,7 +11,6 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textFont(myFont);
-  background(0);
 }
 
 function windowResized() {
@@ -19,8 +18,8 @@ function windowResized() {
 }
 
 function draw() {
-  background(0);
-  windowResized();
+  //fill(255, 10);
+  //rect(0, 0, width, height);
   // only pull this every once in awhile
   if (counter % 180 == 0) {
     getData(); // function for calling data
@@ -68,8 +67,8 @@ text(data, width/4, height/3);
     console.log(data);
 noStroke();  
 textSize(32);
-fill(0,0,255);      
-text(data, width-375, height/3);
+fill(0,0,255)      
+text(data, width-width/3, height/3);
   });
 
 }
