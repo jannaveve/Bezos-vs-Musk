@@ -18,7 +18,7 @@ function windowResized() {
 }
 
 function draw() {
-  background(0);
+  //background(0);
   //fill(255, 10);
   //rect(0, 0, width, height);
   // only pull this every once in awhile
