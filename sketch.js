@@ -34,6 +34,7 @@ function draw() {
 }
 
 function getData() {
+  background(0);
   let data1;  
   let data2;// local var to get last value
   // this calls a GET function, which requests a URL
